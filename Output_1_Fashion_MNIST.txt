@@ -1,0 +1,465 @@
+Training set:
+torch.Size([48000, 784])
+torch.Size([48000, 10])
+Validation set:
+torch.Size([12000, 784])
+torch.Size([12000, 10])
+Testing set:
+torch.Size([10000, 784])
+torch.Size([10000, 10])
+Enter the number of hidden layers: 3
+Enter the number of neurons for hidden layer 1: 150
+Enter the number of neurons for hidden layer 2: 100
+Enter the number of neurons for hidden layer 3: 100
+Enter the activation function (relu, sigmoid, tanh, leakyrelu): sigmoid
+Model is using device: cuda
+MLP(
+  (activation_function): Sigmoid()
+  (layers): ModuleList(
+    (0): Linear(in_features=784, out_features=150, bias=True)
+    (1): Linear(in_features=150, out_features=100, bias=True)
+    (2): Linear(in_features=100, out_features=100, bias=True)
+    (3): Linear(in_features=100, out_features=10, bias=True)
+  )
+)
+Done
+Enter the optimizer (sgd, adam, adagrad): adam
+Epoch 0 -------------------------
+Training average loss: 0.9894664099874596
+Training accuracy: 60.1375
+Validation accuracy: tensor(73.8750)
+Save model to file
+Epoch 1 -------------------------
+Training average loss: 0.5819125220179557
+Training accuracy: 78.37916666666666
+Validation accuracy: tensor(80.2667)
+Save model to file
+Epoch 2 -------------------------
+Training average loss: 0.5152849199219296
+Training accuracy: 81.34166666666667
+Validation accuracy: tensor(82.0250)
+Save model to file
+Epoch 3 -------------------------
+Training average loss: 0.4760107937920839
+Training accuracy: 82.91875
+Validation accuracy: tensor(82.6583)
+Save model to file
+Epoch 4 -------------------------
+Training average loss: 0.44961820577271283
+Training accuracy: 83.75208333333333
+Validation accuracy: tensor(83.8500)
+Save model to file
+Epoch 5 -------------------------
+Training average loss: 0.43019145225174726
+Training accuracy: 84.50208333333333
+Validation accuracy: tensor(83.9083)
+Save model to file
+Epoch 6 -------------------------
+Training average loss: 0.4133717983441117
+Training accuracy: 85.05416666666666
+Validation accuracy: tensor(84.9167)
+Save model to file
+Epoch 7 -------------------------
+Training average loss: 0.39721889769658447
+Training accuracy: 85.51458333333333
+Validation accuracy: tensor(85.6250)
+Save model to file
+Epoch 8 -------------------------
+Training average loss: 0.3864738647911387
+Training accuracy: 85.81666666666666
+Validation accuracy: tensor(84.8500)
+Epoch 9 -------------------------
+Training average loss: 0.3762312967935577
+Training accuracy: 86.23541666666667
+Validation accuracy: tensor(85.5750)
+Epoch 10 -------------------------
+Training average loss: 0.3667958429471279
+Training accuracy: 86.44583333333333
+Validation accuracy: tensor(85.6500)
+Save model to file
+Epoch 11 -------------------------
+Training average loss: 0.3586893427387501
+Training accuracy: 86.86874999999999
+Validation accuracy: tensor(85.6250)
+Epoch 12 -------------------------
+Training average loss: 0.3501694166466283
+Training accuracy: 87.06041666666667
+Validation accuracy: tensor(85.9250)
+Save model to file
+Epoch 13 -------------------------
+Training average loss: 0.342121556312001
+Training accuracy: 87.31041666666667
+Validation accuracy: tensor(85.9167)
+Epoch 14 -------------------------
+Training average loss: 0.3349205530722005
+Training accuracy: 87.59166666666667
+Validation accuracy: tensor(86.4500)
+Save model to file
+Epoch 15 -------------------------
+Training average loss: 0.3305681876077627
+Training accuracy: 87.70208333333333
+Validation accuracy: tensor(86.1750)
+Epoch 16 -------------------------
+Training average loss: 0.32343179140550393
+Training accuracy: 87.99583333333332
+Validation accuracy: tensor(86.4000)
+Epoch 17 -------------------------
+Training average loss: 0.31917154468091513
+Training accuracy: 88.16041666666666
+Validation accuracy: tensor(86.8333)
+Save model to file
+Epoch 18 -------------------------
+Training average loss: 0.31347120347277574
+Training accuracy: 88.37708333333333
+Validation accuracy: tensor(86.9750)
+Save model to file
+Epoch 19 -------------------------
+Training average loss: 0.3076657678342114
+Training accuracy: 88.59791666666666
+Validation accuracy: tensor(86.6667)
+Epoch 20 -------------------------
+Training average loss: 0.3047239046388616
+Training accuracy: 88.66458333333334
+Validation accuracy: tensor(87.0667)
+Save model to file
+Epoch 21 -------------------------
+Training average loss: 0.29921129847876726
+Training accuracy: 88.84791666666668
+Validation accuracy: tensor(87.4333)
+Save model to file
+Epoch 22 -------------------------
+Training average loss: 0.29650404368449623
+Training accuracy: 88.94375
+Validation accuracy: tensor(87.3083)
+Epoch 23 -------------------------
+Training average loss: 0.2938803942598558
+Training accuracy: 89.06458333333333
+Validation accuracy: tensor(87.2833)
+Epoch 24 -------------------------
+Training average loss: 0.28905607810399186
+Training accuracy: 89.16041666666666
+Validation accuracy: tensor(87.4250)
+Epoch 25 -------------------------
+Training average loss: 0.28517940191338614
+Training accuracy: 89.27708333333332
+Validation accuracy: tensor(87.4917)
+Save model to file
+Epoch 26 -------------------------
+Training average loss: 0.28239530309375066
+Training accuracy: 89.49166666666667
+Validation accuracy: tensor(87.2167)
+Epoch 27 -------------------------
+Training average loss: 0.27724037177084637
+Training accuracy: 89.62083333333334
+Validation accuracy: tensor(87.4167)
+Epoch 28 -------------------------
+Training average loss: 0.2744348183648738
+Training accuracy: 89.78333333333333
+Validation accuracy: tensor(87.3083)
+Epoch 29 -------------------------
+Training average loss: 0.273828298629572
+Training accuracy: 89.81041666666667
+Validation accuracy: tensor(87.7250)
+Save model to file
+Epoch 30 -------------------------
+Training average loss: 0.2669923855084926
+Training accuracy: 90.15208333333334
+Validation accuracy: tensor(87.0083)
+Epoch 31 -------------------------
+Training average loss: 0.26577966374422735
+Training accuracy: 90.09166666666667
+Validation accuracy: tensor(87.6083)
+Epoch 32 -------------------------
+Training average loss: 0.2622915966878645
+Training accuracy: 90.16458333333334
+Validation accuracy: tensor(87.7917)
+Save model to file
+Epoch 33 -------------------------
+Training average loss: 0.25765705419083434
+Training accuracy: 90.40625
+Validation accuracy: tensor(88.0667)
+Save model to file
+Epoch 34 -------------------------
+Training average loss: 0.25696431108381756
+Training accuracy: 90.3875
+Validation accuracy: tensor(87.7167)
+Epoch 35 -------------------------
+Training average loss: 0.2532872013852466
+Training accuracy: 90.625
+Validation accuracy: tensor(87.8167)
+Epoch 36 -------------------------
+Training average loss: 0.2518661028569719
+Training accuracy: 90.725
+Validation accuracy: tensor(87.7000)
+Epoch 37 -------------------------
+Training average loss: 0.24679584461225507
+Training accuracy: 90.89166666666667
+Validation accuracy: tensor(87.3667)
+Epoch 38 -------------------------
+Training average loss: 0.2468587125269308
+Training accuracy: 90.95416666666667
+Validation accuracy: tensor(88.3417)
+Save model to file
+Epoch 39 -------------------------
+Training average loss: 0.2409824302912845
+Training accuracy: 91.03541666666666
+Validation accuracy: tensor(87.8917)
+Epoch 40 -------------------------
+Training average loss: 0.24000010138571573
+Training accuracy: 91.01666666666667
+Validation accuracy: tensor(88.3000)
+Epoch 41 -------------------------
+Training average loss: 0.23819295971731966
+Training accuracy: 91.10625
+Validation accuracy: tensor(87.1833)
+Epoch 42 -------------------------
+Training average loss: 0.23728001026747128
+Training accuracy: 91.2625
+Validation accuracy: tensor(87.9667)
+Epoch 43 -------------------------
+Training average loss: 0.2333828277166079
+Training accuracy: 91.37916666666666
+Validation accuracy: tensor(87.8750)
+Epoch 44 -------------------------
+Training average loss: 0.22928415364556712
+Training accuracy: 91.56458333333333
+Validation accuracy: tensor(88.3667)
+Save model to file
+Epoch 45 -------------------------
+Training average loss: 0.2295854263351066
+Training accuracy: 91.57291666666667
+Validation accuracy: tensor(88.2583)
+Epoch 46 -------------------------
+Training average loss: 0.22507742297214767
+Training accuracy: 91.65833333333333
+Validation accuracy: tensor(88.0417)
+Epoch 47 -------------------------
+Training average loss: 0.22299970231795063
+Training accuracy: 91.86458333333334
+Validation accuracy: tensor(88.0333)
+Epoch 48 -------------------------
+Training average loss: 0.22249464950766804
+Training accuracy: 91.73750000000001
+Validation accuracy: tensor(88.1667)
+Epoch 49 -------------------------
+Training average loss: 0.22128678371664137
+Training accuracy: 91.83541666666667
+Validation accuracy: tensor(87.6667)
+Epoch 50 -------------------------
+Training average loss: 0.21917075554219384
+Training accuracy: 91.89375
+Validation accuracy: tensor(88.1333)
+Epoch 51 -------------------------
+Training average loss: 0.21336264338625674
+Training accuracy: 92.0875
+Validation accuracy: tensor(87.7667)
+Epoch 52 -------------------------
+Training average loss: 0.216294117756867
+Training accuracy: 92.04791666666667
+Validation accuracy: tensor(88.2750)
+Epoch 53 -------------------------
+Training average loss: 0.21133885302415972
+Training accuracy: 92.21875
+Validation accuracy: tensor(88.3917)
+Save model to file
+Epoch 54 -------------------------
+Training average loss: 0.21414984507699653
+Training accuracy: 92.08125
+Validation accuracy: tensor(88.1667)
+Epoch 55 -------------------------
+Training average loss: 0.2076195468750666
+Training accuracy: 92.23958333333333
+Validation accuracy: tensor(87.8250)
+Epoch 56 -------------------------
+Training average loss: 0.2052747559226312
+Training accuracy: 92.36666666666666
+Validation accuracy: tensor(88.2583)
+Epoch 57 -------------------------
+Training average loss: 0.20803210696962196
+Training accuracy: 92.31458333333333
+Validation accuracy: tensor(88.2417)
+Epoch 58 -------------------------
+Training average loss: 0.20146116199311412
+Training accuracy: 92.50416666666666
+Validation accuracy: tensor(87.8167)
+Epoch 59 -------------------------
+Training average loss: 0.20994489690230694
+Training accuracy: 92.26666666666667
+Validation accuracy: tensor(88.1083)
+Epoch 60 -------------------------
+Training average loss: 0.1986098810992553
+Training accuracy: 92.62916666666666
+Validation accuracy: tensor(88.)
+Epoch 61 -------------------------
+Training average loss: 0.20604583505555638
+Training accuracy: 92.4625
+Validation accuracy: tensor(88.0833)
+Epoch 62 -------------------------
+Training average loss: 0.20097801023504872
+Training accuracy: 92.58125
+Validation accuracy: tensor(87.6167)
+Epoch 63 -------------------------
+Training average loss: 0.19507251343612247
+Training accuracy: 92.77708333333334
+Validation accuracy: tensor(88.0750)
+Epoch 64 -------------------------
+Training average loss: 0.19368271991925817
+Training accuracy: 92.81875000000001
+Validation accuracy: tensor(88.0667)
+Epoch 65 -------------------------
+Training average loss: 0.19248526698587132
+Training accuracy: 93.04791666666667
+Validation accuracy: tensor(87.5000)
+Epoch 66 -------------------------
+Training average loss: 0.19397673172582774
+Training accuracy: 92.80625
+Validation accuracy: tensor(88.0917)
+Epoch 67 -------------------------
+Training average loss: 0.18936145156806258
+Training accuracy: 93.0625
+Validation accuracy: tensor(88.5583)
+Save model to file
+Epoch 68 -------------------------
+Training average loss: 0.18820099121139114
+Training accuracy: 93.07708333333333
+Validation accuracy: tensor(87.8333)
+Epoch 69 -------------------------
+Training average loss: 0.19206883971055505
+Training accuracy: 92.96875
+Validation accuracy: tensor(88.0583)
+Epoch 70 -------------------------
+Training average loss: 0.18831241552659775
+Training accuracy: 93.10625
+Validation accuracy: tensor(88.1250)
+Epoch 71 -------------------------
+Training average loss: 0.18706822094594827
+Training accuracy: 93.09375
+Validation accuracy: tensor(88.1083)
+Epoch 72 -------------------------
+Training average loss: 0.18394343024371967
+Training accuracy: 93.17916666666667
+Validation accuracy: tensor(88.3583)
+Epoch 73 -------------------------
+Training average loss: 0.18527672727713557
+Training accuracy: 93.25208333333333
+Validation accuracy: tensor(87.9167)
+Epoch 74 -------------------------
+Training average loss: 0.17784927218628582
+Training accuracy: 93.55208333333334
+Validation accuracy: tensor(88.3417)
+Epoch 75 -------------------------
+Training average loss: 0.17794306600500326
+Training accuracy: 93.51666666666667
+Validation accuracy: tensor(88.1083)
+Epoch 76 -------------------------
+Training average loss: 0.181240371864745
+Training accuracy: 93.31875
+Validation accuracy: tensor(88.4417)
+Epoch 77 -------------------------
+Training average loss: 0.17313493923520581
+Training accuracy: 93.66875
+Validation accuracy: tensor(87.8667)
+Epoch 78 -------------------------
+Training average loss: 0.17413447167661314
+Training accuracy: 93.63749999999999
+Validation accuracy: tensor(88.0750)
+Epoch 79 -------------------------
+Training average loss: 0.18124834625930816
+Training accuracy: 93.47708333333333
+Validation accuracy: tensor(88.1583)
+Epoch 80 -------------------------
+Training average loss: 0.16986746302580286
+Training accuracy: 93.78125
+Validation accuracy: tensor(88.3250)
+Epoch 81 -------------------------
+Training average loss: 0.17433473311312506
+Training accuracy: 93.67708333333333
+Validation accuracy: tensor(88.4083)
+Epoch 82 -------------------------
+Training average loss: 0.172081147381056
+Training accuracy: 93.65833333333333
+Validation accuracy: tensor(88.1167)
+Epoch 83 -------------------------
+Training average loss: 0.1784355133190305
+Training accuracy: 93.47708333333333
+Validation accuracy: tensor(88.1833)
+Epoch 84 -------------------------
+Training average loss: 0.1675401302589065
+Training accuracy: 93.91874999999999
+Validation accuracy: tensor(87.5583)
+Epoch 85 -------------------------
+Training average loss: 0.17584354898413948
+Training accuracy: 93.55833333333334
+Validation accuracy: tensor(88.4917)
+Epoch 86 -------------------------
+Training average loss: 0.17112412276105413
+Training accuracy: 93.87916666666666
+Validation accuracy: tensor(88.3167)
+Epoch 87 -------------------------
+Training average loss: 0.1655673937157068
+Training accuracy: 94.07291666666666
+Validation accuracy: tensor(88.1583)
+Epoch 88 -------------------------
+Training average loss: 0.17043868086625782
+Training accuracy: 93.95416666666667
+Validation accuracy: tensor(88.3417)
+Epoch 89 -------------------------
+Training average loss: 0.16649066318408587
+Training accuracy: 94.04375
+Validation accuracy: tensor(88.2417)
+Epoch 90 -------------------------
+Training average loss: 0.16563758712641477
+Training accuracy: 94.03541666666668
+Validation accuracy: tensor(87.6750)
+Epoch 91 -------------------------
+Training average loss: 0.17028124975806955
+Training accuracy: 93.91874999999999
+Validation accuracy: tensor(87.9500)
+Epoch 92 -------------------------
+Training average loss: 0.15999704187909325
+Training accuracy: 94.27083333333334
+Validation accuracy: tensor(88.1667)
+Epoch 93 -------------------------
+Training average loss: 0.1624580287089096
+Training accuracy: 94.13541666666667
+Validation accuracy: tensor(87.1250)
+Epoch 94 -------------------------
+Training average loss: 0.16508239387741924
+Training accuracy: 94.0875
+Validation accuracy: tensor(88.1750)
+Epoch 95 -------------------------
+Training average loss: 0.16447061125775994
+Training accuracy: 94.22291666666666
+Validation accuracy: tensor(87.9833)
+Epoch 96 -------------------------
+Training average loss: 0.16399764219688223
+Training accuracy: 94.26041666666667
+Validation accuracy: tensor(88.3250)
+Epoch 97 -------------------------
+Training average loss: 0.1623688786026226
+Training accuracy: 94.29375
+Validation accuracy: tensor(88.1833)
+Epoch 98 -------------------------
+Training average loss: 0.16809864068379587
+Training accuracy: 93.9875
+Validation accuracy: tensor(88.3333)
+Epoch 99 -------------------------
+Training average loss: 0.1577386786530466
+Training accuracy: 94.36041666666667
+Validation accuracy: tensor(88.5333)
+/content/drive/MyDrive/Colab Notebooks/FASHION-MNIST/Lecture_4_MLP_HW3_FASHION-MNIST.py:300: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  model.load_state_dict(torch.load("model.dat")) # We load the best model (on the validation set) from file
+--------------------------------------------
+Testing accuracy with the best model: tensor(87.4400)
+Confusion matrix:
+ [[76.2  0.2  1.9  3.4  0.3  0.1 16.6  0.1  1.2  0. ]
+ [ 0.  97.1  0.1  1.9  0.4  0.   0.3  0.   0.2  0. ]
+ [ 1.5  0.4 80.2  1.3  8.8  0.   7.7  0.   0.1  0. ]
+ [ 1.1  0.9  1.4 89.2  4.1  0.   2.7  0.   0.6  0. ]
+ [ 0.1  0.   9.8  2.6 81.   0.1  6.   0.   0.4  0. ]
+ [ 0.   0.   0.   0.   0.  94.   0.   3.8  0.2  2. ]
+ [ 9.3  0.3  7.7  2.9  6.2  0.  72.1  0.   1.5  0. ]
+ [ 0.   0.   0.   0.   0.   3.7  0.  95.   0.   1.3]
+ [ 0.5  0.   0.4  0.4  0.4  0.1  0.4  0.6 97.2  0. ]
+ [ 0.   0.   0.   0.   0.   0.7  0.   6.8  0.1 92.4]]
+Done
