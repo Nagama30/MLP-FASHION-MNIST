@@ -39,13 +39,18 @@ DataLoader is used to load the subsets into batches of size 20. The load_data fu
 each batch of images into 1D tensors of size 784 and stores the corresponding labels. Finally, the 
 training, validation, and test data are loaded into variables for model training and evaluation.
 
+
 B. Fashion MNIST dataset: For a sample execution, I have used the parameters below for model 
 training. 
 Parameters: 
 Number of hidden layers: 3 
+
 Neurons in each layer sequentially: 150, 100, 100 
+
 Activation function: sigmoid 
+
 Optimization method: adam 
+
 MLP( 
 (activation_function): Sigmoid() 
 (layers): ModuleList( 
@@ -55,10 +60,13 @@ MLP(
 (3): Linear(in_features=100, out_features=10, bias=True) 
 ) 
 ) 
+
 a) Training and validation accuracy after each epoch-  
-Below graph shows training and validation accuracy after each epoch.  
+Below graph shows training and validation accuracy after each epoch. 
+
 At epoch 0: 
 Training accuracy is 60.13 and validation accuracy is 73.87 
+
 At epoch 99: 
 Training accuracy is 94.36 and validation accuracy is 88.53. 
 
@@ -67,7 +75,9 @@ Training accuracy is 94.36 and validation accuracy is 88.53.
 
 b) Testing accuracy- 
 Testing accuracy with the best model is 87.44 
+
 c) Confusion matrix- 
+
 Confusion matrix is diagonally dominant, but still some of the images are wrongly classified. So 
 we can assume that there are some misclassification occured.
 
